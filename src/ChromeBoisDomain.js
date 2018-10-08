@@ -38,6 +38,8 @@ export default class ChromeBoisDomain extends Component {
    
    pressedKey = () => {
      
+     
+     
    }
   
   render() {
@@ -45,6 +47,7 @@ export default class ChromeBoisDomain extends Component {
       <canvas 
         onMouseMove={this.handleMouseMove}
         onClick={this.customEventHandler}
+        onKeyPress={this.pressedKey}
         width='900'
         height='600'
         tabIndex="0">
