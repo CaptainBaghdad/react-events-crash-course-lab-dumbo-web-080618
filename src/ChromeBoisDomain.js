@@ -39,11 +39,11 @@ export default class ChromeBoisDomain extends Component {
    pressedKey = (event) => {
      
       if(event.keyCode == 65){
-            return resize('+');
+            return this.resize('+');
         }
         
          if(event.keyCode == 83){
-          return resize('-');
+          return this.resize('-');
         }
      
    }
